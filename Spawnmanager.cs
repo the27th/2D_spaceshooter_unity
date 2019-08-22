@@ -19,20 +19,20 @@ public class Spawnmanager : MonoBehaviour
     private GameObject shieldobject;
 
     private bool isdead = false;
-    // Start is called before the first frame update
+    
     void Start()
     {
         StartCoroutine(Spawnenemy());
         StartCoroutine(Spawnpowerups());
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
 
-    IEnumerator Spawnpowerups()
+    IEnumerator Spawnpowerups() //this coroutin is used to generate various powerups at random.
     {
         
         while(isdead == false)
