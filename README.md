@@ -4,3 +4,5 @@ Each file is a code for different game objects that are in game ,you can know th
 for example ,file "player.cs" is the code which is used to give behaviour for in game player object,same goes for all files with thier respective 
 objects.
 You can find the Android APK for the game in the following link :-https://drive.google.com/drive/folders/1eM7dFzyXLh4qkSif8eleywZjZG-gd2zn?usp=sharing
+
+To download right click on folder name("android app"),and select download option.
